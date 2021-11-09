@@ -1,0 +1,96 @@
+    2  sudo yum -y install nginx
+    3  sudo yum install vim
+    4  sudo yum -y install nginx
+    5  /etc/yum.repos.d/
+    6  cd /etc/yum.repos.d/
+    7  ls
+    8  sudo vim nginx.repo
+    9  sudo yum -y install nginx
+   10  iptables -I INPUT 5 -p tcp -m state --state NEW -m tcp --dport 8080 -j ACCEPT
+   11  service iptables save
+   12  sudo service iptables save
+   13  sudo iptables -I INPUT 5 -p tcp -m state --state NEW -m tcp --dport 8080 -j ACCEPT
+   14  sudo vim /etc/nginx/nginx.conf
+   15  sudo cp nginx.conf nginxBakup
+   16  sudo cp nginx.conf nginxBakup.conf
+   17  cd /etc/nginx/
+   18  ls
+   19  sudo cp nginx.conf nginxBakup.conf
+   20  ls
+   21  sudo vim nginx.conf
+   22  sudo systemctl stop firewalld
+   23  sudo systemctl disable firewalld
+   24  sudo systemctl mask --now firewalld
+   25  sudo yum install iptables-services
+   26  iptables -I INPUT 5 -p tcp -m state --state NEW -m tcp --dport 8080 -j ACCEPT
+   27  sudo iptables -I INPUT 5 -p tcp -m state --state NEW -m tcp --dport 8080 -j ACCEPT
+   28  sudo service iptables save
+   29  sudo systemctl stop firewalld
+   30  sudo systemctl disable firewalld
+   31  sudo systemctl mask --now firewalld
+   32  sudo yum install iptables-services
+   33  cd ..
+   34  sudo -i
+   35  service httpd stop
+   36  sudo service httpd stop
+   37  sudo -i
+   38  exit
+   39  * bash[run nginx] action run
+   40  sudo * bash[run nginx] action run
+   41  systemctl restart nginx
+   42  sudo systemctl status nginx
+   43  sudo vim /etc/nginx/nginx.conf
+   44  cd /etc/nginx/
+   45  ls
+   46  sudo vim nginxBakup.conf
+   47  sudo vim nginx.conf
+   48  nginx -t
+   49  sudo vim nginx.conf
+   50  nginx -t
+   51  sudo vim /var/run/nginx.pid
+   52  ls
+   53  cd conf.d
+   54  ls
+   55  sudo vim default.conf
+   56  cd ..
+   57  cd /var/run/
+   58  ls
+   59  cd httpd
+   60  cd /etc/nginx/
+   61  ls
+   62  nginx -t
+   63  sudo systemctl enable nginx.service
+   64  nginx
+   65  sudo systemctl enable nginx.service
+   66  sudo systemctl status nginx.service
+   67  sudo -i
+   68  sudo fuser -k 80/tcp
+   69  sudo -i
+   70  cd ..
+   71  cd /etc
+   72  cd nginx
+   73  ls
+   74  sudo vim nginx.conf
+   75  nginx
+   76  sudo nginx
+   77  sudo systemctl status nginx.service
+   78  sudo systemctl start nginx.service
+   79  sudo -i
+   80  sudo vim nginx.conf
+   81  sudo systemctl start nginx.service
+   82  sudo systemctl status nginx.service
+   83  sudo systemctl restart nginx
+   84  sudo systemctl status nginx
+   85  sudo systemctl restart nginx
+   86  sudo systemctl enable nginx
+   87  exit
+   88  sudo systemctl restart nginx
+   89  sudo systemctl enable nginx
+   90  sudo systemctl restart nginx
+   91  sudo systemctl enable nginx
+   92  sudo yum install vsftpd
+   93  sudo chkconfig vsftpd on
+   94  service vsftpd start
+   95  sudo service vsftpd start
+   96  sudo service vsftpd status
+   97  history

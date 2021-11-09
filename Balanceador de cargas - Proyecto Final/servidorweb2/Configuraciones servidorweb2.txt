@@ -1,0 +1,50 @@
+1  exit
+    2  sudo yum install vim
+    3  sudo yum install tree
+    4  sudo yum install -y http://rpms.remirepo.net/enterprise/remi-release-7.rpm
+    5  sudo yum install -y yum-utils
+    6  sudo yum-config-manager --enable remi-php74
+    7  sudo yum update -y
+    8  sudo yum -y install php
+    9  sudo systemctl restart httpd
+   10  sudo vim /etc/php.ini
+   60  cd ..
+   61  ls
+   62  tree
+   63  exit
+   64  sudo vim /etc/httpd/conf/httpd.confhttpd.conf
+   65  sudo vim /etc/httpd/conf/httpd.conf
+   66  sudo cp -r cookbooks/ /var/www/
+   67  cd /var/www/
+   73  sudo vim prueba.php
+   74  sudo systemctl restart httpd
+   75  sudo rm prueba.php
+   76  ls
+   77  sudo vim Prueba.php
+   78  sudo systemctl restart httpd
+   79  exit
+   80  cd /var/www
+   81  ls
+   82  cd Users
+   83  mkdir Users
+   84  sudo mkdir Users
+   85  ls
+   86  cd Users
+   87  sudo vim Usuarios.php
+   88  sudo systemctl restart httpd
+   89  sudo vim /etc/httpd/conf/httpd.conf
+   90  sudo systemctl restart httpd
+   91  yum search php74 |grep -i mysql
+   92  sudo yum search php74 |grep -i mysql
+   93  sudo yum search php |grep -i ^php- |grep -i mysql
+   94  sudo yum install -y php-mysql
+   95  sudo systemctl restart httpd
+   96  sudo vim Usuarios.php
+   97  sudo systemctl restart httpd
+  124  sudo yum install vsftpd
+  125  sudo chkconfig vsftpd on
+  126  service vsftpd start
+  127  sudo service vsftpd start
+  128  service vsftpd status
+  129  exit
+  130  history

@@ -1,0 +1,99 @@
+
+   23  sudo yum install vim
+   24  sudo yum install tree
+   25  tree
+   26  sudo yum install tree
+   27  sudo yum install -y http://rpms.remirepo.net/enterprise/remi-release-7.rpm
+   28  ls
+   29  cd ..
+   30  sudo yum install -y http://rpms.remirepo.net/enterprise/remi-release-7.rpm
+   31  ls
+   32  sudo yum install -y yum-utils
+   33  sudo yum-config-manager --enable remi-php74
+   34  sudo yum update -y
+   35  sudo yum -y install php
+   36  sudo systemctl restart httpd
+   37  sudo vim /etc/php.ini
+  122  cd httpd.conf
+  123  sudo vim httpd.conf
+  124  sudo start httpd
+  125  sudo start http
+  126  service start httpd
+  127  sudo systemctl service start httpd
+  128  sudo systemctl start httpd
+  129  sudo -i
+  130  sudo systemctl start httpd
+  131  sudo systemctl status httpd
+  132  sudo vim httpd.conf
+  133  sudo systemctl start httpd
+  134  sudo systemctl status httpd
+  135  sudo vim httpd.conf
+  136  sudo systemctl start httpd
+  137  sudo systemctl status httpd
+  138  sudo vim httpd.conf
+  139  sudo systemctl start httpd
+  141  sudo systemctl start httpd
+  143  chcon -Rt httpd_sys_content_t /var/www/html
+  146  sudo systemctl start httpd
+  148  sudo systemctl start httpd
+  149  cd /var/log/apache/error.log
+  150  sudo vim /var/log/apache/error.log
+  160  sudo systemctl start httpd
+  161  ps aux | grep -i apache
+  162  cd /usr/sbin/httpd
+  163  cd /usr/sbin/
+  177  sudo vim /var/www/html/info.php
+  178  sudo vim /etc/httpd/conf/httpd.conf
+  179  sudo systemctl restart httpd
+  180  sudo vim /etc/httpd/conf/httpd.conf
+  181  sudo systemctl restart httpd
+  182  sudo vim /etc/httpd/conf/httpd.conf
+  223  sudo systemctl restart httpd
+  294  mkdir Users
+  295  sudo mkdir Users
+  296  cd Users
+  297  sudo vim Prueba
+  298  sudo vim /etc/httpd/conf/httpd.conf
+  299  sudo systemctl restart httpd
+  304  ls
+  305  sudo vim Prueba
+  306  sudo vim Prueba.ph
+  307  sudo systemctl restart httpd
+  308  sudo vim /etc/httpd/conf/httpd.conf
+  309  sudo systemctl restart httpd
+  329  cd /var/www
+  358  yum search php74 |grep -i mysql
+  359  sudo yum search php74 |grep -i mysql
+  362  cd Users
+  363  ls
+  364  sudo vim Usuarios.php
+  365  cd /etc/
+  366  ls
+  367  cd http
+  368  cd httpd
+  369  ls
+  370  cd conf.d
+  371  ls
+  372  sudo vim php.conf
+  373  cd ..
+  374  sudo vim /etc/httpd/conf/httpd.conf
+  375  sudo systemctl restart httpd
+  376  sudo yum search php74 |grep -i mysql
+  377  exit
+  378  sudo yum search php |grep -i ^php- |grep -i mysql
+  379  sudo yum install -y php-mysql
+  380  sudo -i
+  381  cd /var/www
+  382  ls
+  383  cd Users
+  384  ls
+  385  sudo vim Usuarios.php
+  386  sudo vim /etc/httpd/conf/httpd.conf
+  387  ls
+  388  exit
+  389  sudo yum install vsftpd
+  390  sudo chkconfig vsftpd on
+  391  sudo service vsftpd start
+  392  sudo service vsftpd status
+  393  exit
+  394  history
